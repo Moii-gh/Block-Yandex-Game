@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="./assets/logo.svg" width="132" alt="Block Yandex Games logo">
+  <img src="./assets/logo.png" width="520" alt="Yandex Games blocked">
 </p>
 
 <h1 align="center">Block Yandex Games</h1>
 
 <p align="center">
-  Легкое расширение для Chromium-браузеров, которое блокирует открытие страниц Yandex Games.
+  Легкое расширение для Chromium-браузеров, которое блокирует открытие страниц Яндекс Игры.
 </p>
 
 ## Что делает расширение
 
-Block Yandex Games использует `declarativeNetRequest` из Manifest V3 и блокирует переходы на:
+Block Yandex Games использует `declarativeNetRequest` из Manifest V3 и блокирует переходы на Яндекс Игры:
 
 ```text
 https://yandex.ru/games/*
@@ -52,7 +52,7 @@ https://yandex.ru/games/
 ```text
 .
 ├── assets/
-│   ├── logo.svg
+│   ├── logo.png
 │   ├── icon-16.png
 │   ├── icon-32.png
 │   ├── icon-48.png
@@ -76,4 +76,4 @@ https://yandex.ru/games/
 
 ## Дисклеймер
 
-Проект не связан с Яндексом и не является официальным продуктом Яндекса. Логотип расширения использует стилизованное обозначение Яндекс Игр, а не официальный знак сервиса.
+Проект не связан с Яндексом и не является официальным продуктом Яндекса. Изображение в README и иконках является сгенерированным визуальным ассетом для демонстрации блокировки Яндекс Игр.
